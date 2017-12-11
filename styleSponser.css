@@ -1,0 +1,64 @@
+body{
+    overflow-x: hidden;
+}
+
+li>a{
+    font-size: 25px;
+    border-radius: 10px;
+
+}
+.nav-item>.nav-link:hover{
+    background-color: beige;
+    color: maroon;
+}
+.active{
+    background-color: beige;
+    border-radius: 10px;
+}
+
+.time{
+    height: 100px;
+    font-size: 22px;
+    font-weight:bold;
+    text-align: center;
+    color: beige;
+    border:solid beige 3px;
+    border-radius:10%;
+    padding-top:20px;
+    margin: 10px;
+}
+#abc{
+    background-image: url("images/t.jpg");
+    background-size: cover;
+}
+#troika{
+    display:block;
+    margin: auto;
+    height: 300px;
+    filter:brightness(100%);
+}
+#footer{
+    padding-top: 20px;
+    text-align: center;
+    margin-top: 50px;
+    background-color: black;
+    color: beige;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 560px) {
+    #troika{
+        height: 250px;
+        transform: scaleX(0.7);
+    }
+}
+#sponserTitle{
+    color: beige;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Yanone Kaffeesatz', 'sans-serif';
+}
+.col{
+    border: solid 3px white;
+}
