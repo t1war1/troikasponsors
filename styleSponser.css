@@ -72,7 +72,7 @@ li>a{
     text-align: right;
     font-size: 35px;
     font-family: 'Yanone Kaffeesatz', 'sans-serif';
-
+    color: white;font-weight: bold;border-bottom: solid 2px white;
 }
 .contact2{
     font-size: 30px;
@@ -88,6 +88,20 @@ li>a{
     }
     #cb{
         margin-left: -15px;
+    }
+}
+@media only screen and (min-width: 991px) and (max-width: 1321px){
+    #become{
+        width: 30%;
+    }
+    #contactbox{
+        width: 70%;
+    }
+}
+@media only screen and (min-width:465px ) and (max-width:992px ){
+    #becomeSponser{
+        display: inline-block;
+        margin: auto;
     }
 
 }
